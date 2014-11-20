@@ -1,18 +1,34 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
-2 info using npm@1.4.28
-3 info using node@v0.10.32
-4 verbose config Skipping project config: /Users/timscully/.npmrc. (matches userconfig)
-5 error install Couldn't read dependencies
-6 error package.json ENOENT, open '/Users/timscully/package.json'
-6 error package.json This is most likely not a problem with npm itself.
-6 error package.json npm can't find a package.json file in your current directory.
-7 error System Darwin 13.4.0
-8 error command "node" "/usr/local/bin/npm" "install"
-9 error cwd /Users/timscully/projects_directory/node-express
-10 error node -v v0.10.32
-11 error npm -v 1.4.28
-12 error path /Users/timscully/package.json
-13 error code ENOPACKAGEJSON
-14 error errno 34
-15 verbose exit [ 34, true ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.1.7
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart node-express@1.0.0
+7 info start node-express@1.0.0
+8 verbose unsafe-perm in lifecycle true
+9 info node-express@1.0.0 Failed to exec start script
+10 verbose stack Error: node-express@1.0.0 start: `node server.js`
+10 verbose stack Exit status 8
+10 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:212:16)
+10 verbose stack     at ChildProcess.emit (events.js:98:17)
+10 verbose stack     at maybeClose (child_process.js:756:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+11 verbose pkgid node-express@1.0.0
+12 verbose cwd /Users/timscully/projects_directory/node-express_template
+13 error Darwin 13.4.0
+14 error argv "node" "/usr/local/bin/npm" "start"
+15 error node v0.10.33
+16 error npm  v2.1.7
+17 error code ELIFECYCLE
+18 error node-express@1.0.0 start: `node server.js`
+18 error Exit status 8
+19 error Failed at the node-express@1.0.0 start script.
+19 error This is most likely a problem with the node-express package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     node server.js
+19 error You can get their info via:
+19 error     npm owner ls node-express
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]
