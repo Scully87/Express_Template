@@ -28,3 +28,5 @@ Open in Browser:
 ```
 URL: localhost:6969
 ```
+
+######Use a gitignore file so that the node modules do not get pushed to github
