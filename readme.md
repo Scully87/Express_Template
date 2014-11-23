@@ -5,6 +5,9 @@ Node Express Template
 
   - Node.js
   - Express
+  - EJS
+  - JQuery
+  - CSS
 
 How to Use
 -----------
